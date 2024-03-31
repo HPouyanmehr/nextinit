@@ -32,7 +32,7 @@ Here is the list of categories:
 
 #### Tailwind CSS
 
-1. Make sure you've added the remote properly(Step 2 of [usage](#usage)).
+1. Make sure you've added the remote properly (Step 2 of [usage](#usage)).
 2. Run the following command to add [Tailwind CSS](https://tailwindcss.com/) to your project.
 
 ```bash
@@ -41,3 +41,16 @@ Here is the list of categories:
 
 3. Install dependencies by `npm i`
 4. Run your project again.
+
+#### Daisy UI
+
+1. Make sure you've added the remote properly (Step 2 of [usage](#usage)).
+2. Make sure you've add Tailwind CSS properly ([Add tailwind](#tailwind-css)).
+3. Run the following command to add [Daisy UI](https://daisyui.com/) to your project.
+
+```bash
+  git pull nextinit styling-daisy-ui
+```
+
+4. Install dependencies by `npm i`
+5. Run your project again.
