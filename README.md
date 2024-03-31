@@ -17,8 +17,8 @@ You may find a lot of stater projects, as example you may find a starter for "Ne
 Steps to follow:
 
 1. Create your repository (An **empty** repository is recommended).
-2. Add a remote named "nextinit" to your project.
-3. To add NextJs and TypeScript run `git merge nextinit/main`
+2. Add a remote named "nextinit" to your project by running `git remote add nextinit https://github.com/HPouyanmehr/nextinit`.
+3. To add NextJs and TypeScript run `git merge --allow-unrelated-histories nextinit/main`
 4. Run the merge command for the branches you need ([Check the list](#branches)).
 
 ## Branches
@@ -31,8 +31,12 @@ Here is the list of categories:
 
 #### Tailwind CSS
 
-Run the following command to add [Tailwind CSS](https://tailwindcss.com/) to your project.
+1. Make sure you've added the remote properly(Step 2 of [usage](#usage)).
+2. Run the following command to add [Tailwind CSS](https://tailwindcss.com/) to your project.
 
 ```bash
-git merge nextinit/styling-tailwind-css
+  git merge --allow-unrelated-histories nextinit/styling-tailwind-css
 ```
+
+3. Install dependencies by `npm i`
+4. Run your project again.
