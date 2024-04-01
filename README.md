@@ -22,6 +22,16 @@ Steps to follow:
 4. Install dependencies `npm i`
 5. Run the merge command for the branches you need ([Check the list](#branches)).
 
+## Architecture
+
+The `src` folder is divided to three main folders:
+
+- Core: Responsible for core concepts.
+- App: Responsible for application layouts and pages
+- Features: Responsible for features concepts.
+
+In order to avoid conflicts, try to structure your app in the same way.
+
 ## Branches
 
 Here is the list of categories:
